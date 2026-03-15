@@ -1,0 +1,173 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - img "โลโก้มหาวิทยาลัย" [ref=e6]
+        - generic [ref=e7]:
+          - heading "ระบบแนะนำรายวิชาชีพเลือกด้วยต้นไม้ตัดสินใจ" [level=1] [ref=e8]
+          - paragraph [ref=e9]: Academic Path Recommender using Decision Trees
+      - navigation [ref=e10]:
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "หน้าหลัก" [ref=e13] [cursor=pointer]:
+              - /url: "#home"
+          - listitem [ref=e14]:
+            - link "คุณสมบัติ" [ref=e15] [cursor=pointer]:
+              - /url: "#features"
+          - listitem [ref=e16]:
+            - link "วิธีการใช้งาน" [ref=e17] [cursor=pointer]:
+              - /url: "#how-it-works"
+          - listitem [ref=e18]:
+            - link "เกี่ยวกับเรา" [ref=e19] [cursor=pointer]:
+              - /url: "#about"
+          - listitem [ref=e20]:
+            - link "เข้าสู่ระบบ" [ref=e21] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e22]:
+            - link "ลงทะเบียน" [ref=e23] [cursor=pointer]:
+              - /url: register.php
+  - generic [ref=e25]:
+    - heading "ค้นพบรายวิชาที่เหมาะกับคุณที่สุด" [level=2] [ref=e26]
+    - paragraph [ref=e27]: ระบบแนะนำรายวิชาชีพเลือกด้วยต้นไม้ตัดสินใจ เพื่อช่วยคุณเลือกวิชาที่ตรงกับความสนใจ
+    - link "รับคำแนะนำทันที" [active] [ref=e28] [cursor=pointer]:
+      - /url: "#"
+  - generic [ref=e30]:
+    - heading "คุณสมบัติระบบ" [level=2] [ref=e32]
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e36]: 
+        - heading "ต้นไม้ตัดสินใจอัจฉริยะ" [level=3] [ref=e37]
+        - paragraph [ref=e38]: ระบบใช้อัลกอริทึมต้นไม้ตัดสินใจที่ทันสมัยเพื่อวิเคราะห์ข้อมูลและให้คำแนะนำที่แม่นยำ
+      - generic [ref=e39]:
+        - generic [ref=e41]: 
+        - heading "เชื่อมโยงกับหลักสูตร" [level=3] [ref=e42]
+        - paragraph [ref=e43]: วิเคราะห์รายวิชาชีพเลือกในหลักสูตรปรับปรุง พ.ศ. 2565 เพื่อแนะนำวิชาที่เหมาะสมที่สุด
+      - generic [ref=e44]:
+        - generic [ref=e46]: 
+        - heading "ติดตามผลการเรียน" [level=3] [ref=e47]
+        - paragraph [ref=e48]: ติดตามความก้าวหน้าและผลการเรียนของคุณเพื่อปรับปรุงคำแนะนำให้ตรงกับความต้องการ
+  - generic [ref=e50]:
+    - heading "วิธีการใช้งาน" [level=2] [ref=e52]
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e55]: "1"
+        - generic [ref=e56]:
+          - heading "ลงทะเบียน" [level=4] [ref=e57]
+          - paragraph [ref=e58]: สร้างบัญชีผู้ใช้ด้วยรหัสนักศึกษาและข้อมูลส่วนตัว
+      - generic [ref=e59]:
+        - generic [ref=e60]: "2"
+        - generic [ref=e61]:
+          - heading "เข้าสู่ระบบ" [level=4] [ref=e62]
+          - paragraph [ref=e63]:
+            - text: กรุณาเข้าสู่ระบบเพื่อเริ่มต้นใช้งานระบบแนะนำแผนการเรียน โดยใช้
+            - strong [ref=e64]: รหัสนักศึกษา
+            - text: และ
+            - strong [ref=e65]: รหัสผ่าน
+            - text: ของคุณ
+          - paragraph [ref=e66]: หากยังไม่มีบัญชี หรือไม่สามารถเข้าสู่ระบบได้ กรุณาติดต่อเจ้าหน้าที่ผู้ดูแลระบบ
+      - generic [ref=e67]:
+        - generic [ref=e68]: "3"
+        - generic [ref=e69]:
+          - heading "รับคำแนะนำ" [level=4] [ref=e70]
+          - paragraph [ref=e71]: ระบบจะวิเคราะห์และแนะนำรายวิชาที่เหมาะสม
+      - generic [ref=e72]:
+        - generic [ref=e73]: "4"
+        - generic [ref=e74]:
+          - heading "วางแผนลงทะเบียน" [level=4] [ref=e75]
+          - paragraph [ref=e76]: ใช้คำแนะนำจากระบบเพื่อช่วยในการวางแผนการลงทะเบียนเรียนให้สอดคล้องกับความสนใจและเป้าหมายอาชีพของคุณ
+          - paragraph [ref=e77]:
+            - text: อย่าลืมนำแผนที่ได้ไป
+            - strong [ref=e78]: ปรึกษาอาจารย์ที่ปรึกษา
+            - text: เพื่อให้ได้รับคำแนะนำเพิ่มเติมและลงทะเบียนได้อย่างเหมาะสม
+  - generic [ref=e80]:
+    - heading "เกี่ยวกับระบบ" [level=2] [ref=e82]
+    - generic [ref=e83]:
+      - img "ภาพเกี่ยวกับเรา" [ref=e85]
+      - generic [ref=e86]:
+        - heading "ความเป็นมาและวัตถุประสงค์" [level=3] [ref=e87]
+        - paragraph [ref=e88]: ระบบแนะนำรายวิชาชีพเลือกด้วยต้นไม้ตัดสินใจ (Academic Path Recommender using Decision Trees) นี้ถูกพัฒนาขึ้นเพื่อเป็นเครื่องมือสนับสนุนการตัดสินใจสำหรับนักศึกษาหลักสูตรวิทยาศาสตรบัณฑิต ให้สามารถเลือกรายวิชาชีพเลือกได้อย่างเหมาะสมและสอดคล้องกับความสนใจ ศักยภาพ และเป้าหมายทางอาชีพในอนาคต
+        - paragraph [ref=e89]: เราเล็งเห็นถึงความสำคัญของการเลือกวิชาที่ถูกต้อง ซึ่งมีผลอย่างยิ่งต่อเส้นทางอาชีพของนักศึกษา ด้วยการใช้อัลกอริทึมต้นไม้ตัดสินใจ ระบบจะวิเคราะห์ข้อมูลที่เกี่ยวข้อง เพื่อให้คำแนะนำที่แม่นยำและเป็นประโยชน์สูงสุดแก่นักศึกษา
+  - contentinfo [ref=e90]:
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - heading "เกี่ยวกับเรา" [level=4] [ref=e94]
+          - paragraph [ref=e95]: ระบบแนะนำรายวิชาชีพเลือก ที่ช่วยให้นักศึกษาสามารถค้นพบเส้นทางการเรียนรู้ที่เหมาะสมกับตนเอง
+        - generic [ref=e96]:
+          - heading "ลิงก์ด่วน" [level=4] [ref=e97]
+          - list [ref=e98]:
+            - listitem [ref=e99]:
+              - link "หน้าหลัก" [ref=e100] [cursor=pointer]:
+                - /url: "#home"
+            - listitem [ref=e101]:
+              - link "คุณสมบัติ" [ref=e102] [cursor=pointer]:
+                - /url: "#features"
+            - listitem [ref=e103]:
+              - link "วิธีการใช้งาน" [ref=e104] [cursor=pointer]:
+                - /url: "#how-it-works"
+            - listitem [ref=e105]:
+              - link "เกี่ยวกับเรา" [ref=e106] [cursor=pointer]:
+                - /url: "#about"
+        - generic [ref=e107]:
+          - heading "ติดต่อเรา" [level=4] [ref=e108]
+          - paragraph [ref=e109]:
+            - generic [ref=e110]: 
+            - text: มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน วิทยาเขตสุรินทร์
+          - paragraph [ref=e111]:
+            - generic [ref=e112]: 
+            - text: kannika.se@rmuti.ac.th
+          - paragraph [ref=e113]:
+            - generic [ref=e114]: 
+            - text: "+934783930"
+        - generic [ref=e115]:
+          - heading "ติดตามเรา" [level=4] [ref=e116]
+          - generic [ref=e117]:
+            - link "" [ref=e118] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e119]: 
+            - link "" [ref=e120] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e121]: 
+      - paragraph [ref=e123]: © 2025 ระบบแนะนำรายวิชาชีพเลือก. All rights reserved.
+  - generic [ref=e125]:
+    - generic [ref=e126] [cursor=pointer]: ×
+    - generic [ref=e127]:
+      - heading "เข้าสู่ระบบ" [level=3] [ref=e128]
+      - paragraph [ref=e129]: กรุณาเลือกประเภทผู้ใช้งานของคุณ
+    - generic [ref=e131]:
+      - generic [ref=e132] [cursor=pointer]:
+        - generic [ref=e134]: 
+        - generic [ref=e135]:
+          - generic [ref=e136]: นักศึกษา
+          - generic [ref=e137]: เข้าถึงระบบแนะนำวิชาชีพ
+      - generic [ref=e138] [cursor=pointer]:
+        - generic [ref=e140]: 
+        - generic [ref=e141]:
+          - generic [ref=e142]: อาจารย์
+          - generic [ref=e143]: ดูข้อมูลนักศึกษา, จัดการรายวิชา
+      - generic [ref=e144] [cursor=pointer]:
+        - generic [ref=e146]: 
+        - generic [ref=e147]:
+          - generic [ref=e148]: ผู้ดูแลระบบ
+          - generic [ref=e149]: จัดการผู้ใช้, กำหนดค่าระบบ
+    - generic [ref=e150]:
+      - generic [ref=e151]:
+        - generic [ref=e152]: ชื่อผู้ใช้
+        - textbox "ชื่อผู้ใช้" [ref=e153]:
+          - /placeholder: กรุณาเลือกประเภทผู้ใช้
+      - generic [ref=e154]:
+        - generic [ref=e155]: รหัสผ่าน
+        - textbox "รหัสผ่าน" [ref=e156]
+      - button "เข้าสู่ระบบ" [ref=e157] [cursor=pointer]
+      - generic [ref=e158]:
+        - paragraph [ref=e159]:
+          - text: ยังไม่มีบัญชี?
+          - link "ลงทะเบียนที่นี่" [ref=e160] [cursor=pointer]:
+            - /url: register.php
+        - paragraph [ref=e161]:
+          - link "ลืมรหัสผ่าน?" [ref=e162] [cursor=pointer]:
+            - /url: forgot_password.php
+```

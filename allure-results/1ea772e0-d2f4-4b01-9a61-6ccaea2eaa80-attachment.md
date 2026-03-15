@@ -1,0 +1,75 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - heading "Index of /aprdt/DT" [level=1] [ref=e2]
+  - table [ref=e3]:
+    - rowgroup [ref=e4]:
+      - row "[ICO] Name Last modified Size Description" [ref=e5]:
+        - columnheader "[ICO]" [ref=e6]:
+          - img "[ICO]" [ref=e7]
+        - columnheader "Name" [ref=e8]:
+          - link "Name" [ref=e9] [cursor=pointer]:
+            - /url: "?C=N;O=D"
+        - columnheader "Last modified" [ref=e10]:
+          - link "Last modified" [ref=e11] [cursor=pointer]:
+            - /url: "?C=M;O=A"
+        - columnheader "Size" [ref=e12]:
+          - link "Size" [ref=e13] [cursor=pointer]:
+            - /url: "?C=S;O=A"
+        - columnheader "Description" [ref=e14]:
+          - link "Description" [ref=e15] [cursor=pointer]:
+            - /url: "?C=D;O=A"
+      - row [ref=e16]:
+        - columnheader [ref=e17]:
+          - separator [ref=e18]
+      - row "[PARENTDIR] Parent Directory -" [ref=e19]:
+        - cell "[PARENTDIR]" [ref=e20]:
+          - img "[PARENTDIR]" [ref=e21]
+        - cell "Parent Directory" [ref=e22]:
+          - link "Parent Directory" [ref=e23] [cursor=pointer]:
+            - /url: /aprdt/
+        - cell [ref=e24]
+        - cell "-" [ref=e25]
+        - cell [ref=e26]
+      - row "[DIR] ระบบแนะนำรายวิชาชีพเลือกด้วยต้นไม้ตัดสินใจ/ 2025-09-27 23:06 -" [ref=e27]:
+        - cell "[DIR]" [ref=e28]:
+          - img "[DIR]" [ref=e29]
+        - cell "ระบบแนะนำรายวิชาชีพเลือกด้วยต้นไม้ตัดสินใจ/" [ref=e30]:
+          - link "ระบบแนะนำรายวิชาชีพเลือกด้วยต้นไม้ตัดสินใจ/" [ref=e31] [cursor=pointer]:
+            - /url: "%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b9%81%e0%b8%99%e0%b8%b0%e0%b8%99%e0%b8%b3%e0%b8%a3%e0%b8%b2%e0%b8%a2%e0%b8%a7%e0%b8%b4%e0%b8%8a%e0%b8%b2%e0%b8%8a%e0%b8%b5%e0%b8%9e%e0%b9%80%e0%b8%a5%e0%b8%b7%e0%b8%ad%e0%b8%81%e0%b8%94%e0%b9%89%e0%b8%a7%e0%b8%a2%e0%b8%95%e0%b9%89%e0%b8%99%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b8%95%e0%b8%b1%e0%b8%94%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b9%83%e0%b8%88/"
+        - cell "2025-09-27 23:06" [ref=e32]
+        - cell "-" [ref=e33]
+        - cell [ref=e34]
+      - row "[DIR] node_modules/ 2025-09-16 22:20 -" [ref=e35]:
+        - cell "[DIR]" [ref=e36]:
+          - img "[DIR]" [ref=e37]
+        - cell "node_modules/" [ref=e38]:
+          - link "node_modules/" [ref=e39] [cursor=pointer]:
+            - /url: node_modules/
+        - cell "2025-09-16 22:20" [ref=e40]
+        - cell "-" [ref=e41]
+        - cell [ref=e42]
+      - row "[ ] package-lock.json 2025-09-16 22:20 914" [ref=e43]:
+        - cell "[ ]" [ref=e44]:
+          - img "[ ]" [ref=e45]
+        - cell "package-lock.json" [ref=e46]:
+          - link "package-lock.json" [ref=e47] [cursor=pointer]:
+            - /url: package-lock.json
+        - cell "2025-09-16 22:20" [ref=e48]
+        - cell "914" [ref=e49]
+        - cell [ref=e50]
+      - row "[ ] package.json 2025-09-16 22:20 59" [ref=e51]:
+        - cell "[ ]" [ref=e52]:
+          - img "[ ]" [ref=e53]
+        - cell "package.json" [ref=e54]:
+          - link "package.json" [ref=e55] [cursor=pointer]:
+            - /url: package.json
+        - cell "2025-09-16 22:20" [ref=e56]
+        - cell "59" [ref=e57]
+        - cell [ref=e58]
+      - row [ref=e59]:
+        - columnheader [ref=e60]:
+          - separator [ref=e61]
+  - generic [ref=e62]: Apache/2.4.58 (Ubuntu) Server at computer.surin.rmuti.ac.th Port 443
+```

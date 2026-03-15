@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หลักสูตร - เกาศลศึกษา</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">📚 เกาศลศึกษา</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">หน้าแรก</a></li>
+                        <li><a href="courses.html" class="active">หลักสูตร</a></li>
+                        <li><a href="about.html">เกี่ยวกับเรา</a></li>
+                        <li><a href="teachers.html">ครูของเรา</a></li>
+                        <li><a href="contact.html">ติดต่อเรา</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="hero">
+                <h1>หลักสูตรของเรา</h1>
+                <p>เลือกหลักสูตรที่เหมาะสมกับความสนใจและเป้าหมายของคุณ</p>
+            </section>
+
+            <section>
+                <h2 class="section-title">โปรแกรมการเรียน</h2>
+                <div class="cards-grid">
+                    <div class="card">
+                        <h3>🔬 วิทยาศาสตร์และคณิตศาสตร์</h3>
+                        <p>หลักสูตรเน้นวิชาวิทยาศาสตร์ คณิตศาสตร์ ฟิสิกส์ เคมี และชีววิทยา</p>
+                        <p><strong>ระยะเวลา:</strong> 3 ปี</p>
+                        <p><strong>ระดับ:</strong> ม.4-6</p>
+                        <button class="btn btn-primary" onclick="showNotification('ขอบคุณสำหรับความสนใจ!')">ลงทะเบียน</button>
+                    </div>
+                    <div class="card">
+                        <h3>📖 ศิลป์และภาษา</h3>
+                        <p>หลักสูตรสำหรับผู้ที่สนใจเรียนภาษา วรรณคดี ประวัติศาสตร์ และศิลปะ</p>
+                        <p><strong>ระยะเวลา:</strong> 3 ปี</p>
+                        <p><strong>ระดับ:</strong> ม.4-6</p>
+                        <button class="btn btn-primary" onclick="showNotification('ขอบคุณสำหรับความสนใจ!')">ลงทะเบียน</button>
+                    </div>
+                    <div class="card">
+                        <h3>💼 บริหารธุรกิจและเศรษฐศาสตร์</h3>
+                        <p>หลักสูตรเตรียมสำหรับการศึกษาต่อด้านธุรกิจ การจัดการ และเศรษฐศาสตร์</p>
+                        <p><strong>ระยะเวลา:</strong> 3 ปี</p>
+                        <p><strong>ระดับ:</strong> ม.4-6</p>
+                        <button class="btn btn-primary" onclick="showNotification('ขอบคุณสำหรับความสนใจ!')">ลงทะเบียน</button>
+                    </div>
+                    <div class="card">
+                        <h3>🎨 ศิลป์ประยุกต์และดีไซน์</h3>
+                        <p>หลักสูตรสำหรับนักเรียนที่มีความสามารถด้านศิลป์ ดีไซน์ และการสร้างสรรค์</p>
+                        <p><strong>ระยะเวลา:</strong> 3 ปี</p>
+                        <p><strong>ระดับ:</strong> ม.4-6</p>
+                        <button class="btn btn-primary" onclick="showNotification('ขอบคุณสำหรับความสนใจ!')">ลงทะเบียน</button>
+                    </div>
+                    <div class="card">
+                        <h3>🌍 ภาษาและวัฒนธรรมสากล</h3>
+                        <p>เรียนรู้ภาษาต่างประเทศ วัฒนธรรมโลก และทำความเข้าใจความหลากหลาย</p>
+                        <p><strong>ระยะเวลา:</strong> 3 ปี</p>
+                        <p><strong>ระดับ:</strong> ม.4-6</p>
+                        <button class="btn btn-primary" onclick="showNotification('ขอบคุณสำหรับความสนใจ!')">ลงทะเบียน</button>
+                    </div>
+                    <div class="card">
+                        <h3>⚙️ เทคโนโลยีและสารสนเทศ</h3>
+                        <p>เรียนโปรแกรมมิง การออกแบบเว็บ คณิตศาสตร์คอมพิวเตอร์ และเทคโนโลยีใหม่ๆ</p>
+                        <p><strong>ระยะเวลา:</strong> 3 ปี</p>
+                        <p><strong>ระดับ:</strong> ม.4-6</p>
+                        <button class="btn btn-primary" onclick="showNotification('ขอบคุณสำหรับความสนใจ!')">ลงทะเบียน</button>
+                    </div>
+                </div>
+            </section>
+
+            <section style="margin-top: 3rem;">
+                <h2 class="section-title">ตารางเรียน</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>เวลา</th>
+                            <th>จันทร์</th>
+                            <th>อังคาร</th>
+                            <th>พุธ</th>
+                            <th>พฤหัสบดี</th>
+                            <th>ศุกร์</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>08:00 - 09:00</td>
+                            <td>คณิตศาสตร์</td>
+                            <td>ภาษาไทย</td>
+                            <td>วิทยาศาสตร์</td>
+                            <td>ศรุษศาสตร์</td>
+                            <td>พลศึกษา</td>
+                        </tr>
+                        <tr>
+                            <td>09:00 - 10:00</td>
+                            <td>วิทยาศาสตร์</td>
+                            <td>อังกฤษ</td>
+                            <td>ประวัติศาสตร์</td>
+                            <td>คอมพิวเตอร์</td>
+                            <td>ศิลป์</td>
+                        </tr>
+                        <tr>
+                            <td>10:00 - 11:00</td>
+                            <td>ภาษาไทย</td>
+                            <td>คณิตศาสตร์</td>
+                            <td>อังกฤษ</td>
+                            <td>ภาษาไทย</td>
+                            <td>ดนตรี</td>
+                        </tr>
+                        <tr>
+                            <td>11:00 - 12:00</td>
+                            <td>กิจกรรมชั้นเรียน</td>
+                            <td>วิทยาศาสตร์</td>
+                            <td>คณิตศาสตร์</td>
+                            <td>อังกฤษ</td>
+                            <td>โครงการพิเศษ</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>เกี่ยวกับเรา</h4>
+                    <p>เกาศลศึกษา คือสถาบันการศึกษาที่มุ่งพัฒนาคุณภาพการศึกษาในประเทศไทย</p>
+                </div>
+                <div class="footer-section">
+                    <h4>เมนูด่วน</h4>
+                    <ul>
+                        <li><a href="index.html">หน้าแรก</a></li>
+                        <li><a href="courses.html">หลักสูตร</a></li>
+                        <li><a href="about.html">เกี่ยวกับเรา</a></li>
+                        <li><a href="contact.html">ติดต่อเรา</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>ติดต่อเรา</h4>
+                    <p>📞 โทรศัพท์: 02-123-4567</p>
+                    <p>📧 อีเมล: info@kaosol.edu</p>
+                    <p>📍 ที่อยู่: กรุงเทพฯ ประเทศไทย</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 เกาศลศึกษา สงวนสิทธิ์ทั้งหมด | เว็บไซต์อย่างเป็นทางการ</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

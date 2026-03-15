@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ติดต่อเรา - เกาศลศึกษา</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">📚 เกาศลศึกษา</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">หน้าแรก</a></li>
+                        <li><a href="courses.html">หลักสูตร</a></li>
+                        <li><a href="about.html">เกี่ยวกับเรา</a></li>
+                        <li><a href="teachers.html">ครูของเรา</a></li>
+                        <li><a href="contact.html" class="active">ติดต่อเรา</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="hero">
+                <h1>ติดต่อเรา</h1>
+                <p>เราพร้อมตอบคำถามและให้ข้อมูลเพิ่มเติมของคุณ</p>
+            </section>
+
+            <section style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 3rem;">
+                <div>
+                    <h2 class="section-title" style="text-align: left;">แบบฟอร์มติดต่อ</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">ชื่อของคุณ *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">อีเมล *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">เบอร์โทรศัพท์ *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">เรื่อง *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">-- เลือกเรื่อง --</option>
+                                <option value="admission">การรับสมัครเข้าเรียน</option>
+                                <option value="course">ข้อมูลเกี่ยวกับหลักสูตร</option>
+                                <option value="scholarship">ข้อมูลทุนการศึกษา</option>
+                                <option value="other">อื่นๆ</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">ข้อความ *</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">ส่งข้อความ</button>
+                    </form>
+                </div>
+
+                <div>
+                    <h2 class="section-title" style="text-align: left;">ข้อมูลติดต่อ</h2>
+                    <div class="card">
+                        <h3>📍 ที่อยู่</h3>
+                        <p>เลขที่ 123 ถนนสุขุมวิท แขวงประมาณ เขตหนองจอก<br>
+                        กรุงเทพมหานคร 10210<br>
+                        ประเทศไทย</p>
+
+                        <h3 style="margin-top: 2rem;">📞 โทรศัพท์</h3>
+                        <p>สำนักงานหลัก: 02-123-4567<br>
+                        สำนักงานรับสมัคร: 02-123-4589<br>
+                        สำนักงานหลักสูตร: 02-123-4590</p>
+
+                        <h3 style="margin-top: 2rem;">📧 อีเมล</h3>
+                        <p>ติดต่อทั่วไป: info@kaosol.edu<br>
+                        รับสมัครเข้าเรียน: admission@kaosol.edu<br>
+                        กิจการนักเรียน: student@kaosol.edu</p>
+
+                        <h3 style="margin-top: 2rem;">🕐 เวลาการให้บริการ</h3>
+                        <p>จันทร์ - ศุกร์: 08:00 - 17:00 น.<br>
+                        เสาร์: 09:00 - 12:00 น.<br>
+                        อาทิตย์: ปิด</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="section-title">คำถามที่พบบ่อย</h2>
+                <div class="cards-grid" style="grid-template-columns: 1fr;">
+                    <div class="card">
+                        <h3>❓ ปีการศึกษาเริ่มต้นเมื่อใด</h3>
+                        <p>ปีการศึกษาของเรา เริ่มต้นในเดือนพฤษภาคมของทุกปี และสิ้นสุดในเดือนเมษายนของปีถัดไป</p>
+                    </div>
+                    <div class="card">
+                        <h3>❓ มีการรับสมัครตลอดทั้งปีหรือไม่</h3>
+                        <p>การรับสมัครมีการรับปกติ 2 ครั้งในปี ได้แก่ เมษายน - พฤษภาคมและตุลาคม - พฤศจิกายน</p>
+                    </div>
+                    <div class="card">
+                        <h3>❓ มีทุนการศึกษาหรือไม่</h3>
+                        <p>ใช่ เรามีทุนการศึกษาให้กับนักเรียนที่มีผลการเรียนดี และนักเรียนที่มีความจำเป็น</p>
+                    </div>
+                    <div class="card">
+                        <h3>❓ หนักสูตรมีการเรียนออนไลน์ไหม</h3>
+                        <p>ใช่ เรามีระบบ Blended Learning ที่รวมการสอนหน้าหนึ่งชั้นเรียนและการเรียนออนไลน์</p>
+                    </div>
+                    <div class="card">
+                        <h3>❓ ดัฒนการยมี ห้องพักนักเรียนหรือไม่</h3>
+                        <p>ปัจจุบันเรายังไม่มีหอพักนักเรียน แต่นักเรียนสามารถหาห้องพักนอกสถาบันได้</p>
+                    </div>
+                    <div class="card">
+                        <h3>❓ มีการสอบคัดเข้าหรือไม่</h3>
+                        <p>ใช่ นักเรียนที่ต้องการเข้าเรียนต้องสอบคัดเข้ากับเรา โดยทดสอบด้านคณิตศาสตร์ ภาษาไทย และภาษาอังกฤษ</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>เกี่ยวกับเรา</h4>
+                    <p>เกาศลศึกษา คือสถาบันการศึกษาที่มุ่งพัฒนาคุณภาพการศึกษาในประเทศไทย</p>
+                </div>
+                <div class="footer-section">
+                    <h4>เมนูด่วน</h4>
+                    <ul>
+                        <li><a href="index.html">หน้าแรก</a></li>
+                        <li><a href="courses.html">หลักสูตร</a></li>
+                        <li><a href="about.html">เกี่ยวกับเรา</a></li>
+                        <li><a href="contact.html">ติดต่อเรา</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>ติดต่อเรา</h4>
+                    <p>📞 โทรศัพท์: 02-123-4567</p>
+                    <p>📧 อีเมล: info@kaosol.edu</p>
+                    <p>📍 ที่อยู่: กรุงเทพฯ ประเทศไทย</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 เกาศลศึกษา สงวนสิทธิ์ทั้งหมด | เว็บไซต์อย่างเป็นทางการ</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Form submission handler
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Validate form
+            if (!validateForm('contactForm')) {
+                showNotification('โปรดกรอกข้อมูลทุกช่องที่จำเป็น', 'error');
+                return;
+            }
+
+            // Get form data
+            const formData = new FormData(this);
+            const data = {
+                name: formData.get('name'),
+                email: formData.get('email'),
+                phone: formData.get('phone'),
+                subject: formData.get('subject'),
+                message: formData.get('message')
+            };
+
+            // Simulate sending
+            console.log('ส่งข้อมูล:', data);
+            showNotification('ขอบคุณสำหรับการติดต่อ เราจะตอบกลับไว !!');
+            
+            // Reset form
+            this.reset();
+        });
+    </script>
+</body>
+</html>
